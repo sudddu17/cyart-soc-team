@@ -204,6 +204,28 @@ Used \*\*5 Whys Method\*\*:
 
 
 
+\## MITRE ATT\&CK Mapping
+
+
+
+During adversary emulation using MITRE Caldera, the following techniques were simulated and detected:
+
+
+
+\- T1210 – Exploitation of Remote Services  
+
+&#x20; → Observed suspicious remote access attempts and lateral movement patterns.
+
+
+
+\- T1566 – Phishing  
+
+&#x20; → Simulated phishing-based credential access attempts.
+
+
+
+This mapping helps align detected activities with real-world adversary behavior.
+
 \---
 
 
