@@ -46,17 +46,17 @@ The objective of this project is to simulate real-world cyber attacks and showca
 
 
 
-\- SIEM: Wazuh / Elastic Security  
+\- SIEM: Wazuh / Elastic Security
 
-\- SOAR: Splunk Phantom / TheHive  
+\- SOAR: Splunk Phantom / TheHive
 
-\- Threat Intelligence: AlienVault OTX, VirusTotal  
+\- Threat Intelligence: AlienVault OTX, VirusTotal
 
-\- Adversary Emulation: MITRE Caldera  
+\- Adversary Emulation: MITRE Caldera
 
-\- Exploitation: Metasploit  
+\- Exploitation: Metasploit
 
-\- Forensics: Velociraptor, FTK Imager  
+\- Forensics: Velociraptor, FTK Imager
 
 
 
@@ -90,11 +90,11 @@ A playbook was created to automate phishing response:
 
 
 
-\- Check IP reputation  
+\- Check IP reputation
 
-\- Block malicious IP  
+\- Block malicious IP
 
-\- Create incident ticket in TheHive  
+\- Create incident ticket in TheHive
 
 
 
@@ -110,11 +110,11 @@ A playbook was created to automate phishing response:
 
 
 
-\- Analyzed alerts from SIEM  
+\- Analyzed alerts from SIEM
 
-\- Validated file hash using VirusTotal  
+\- Validated file hash using VirusTotal
 
-\- Prioritized incidents based on severity  
+\- Prioritized incidents based on severity
 
 
 
@@ -138,9 +138,9 @@ Simulated attacker techniques:
 
 📌 Outcome:
 
-\- Detection successful for phishing  
+\- Detection successful for phishing
 
-\- Improvement needed in lateral movement detection  
+\- Improvement needed in lateral movement detection
 
 
 
@@ -156,11 +156,11 @@ Used \*\*5 Whys Method\*\*:
 
 
 
-\- User clicked phishing link  
+\- User clicked phishing link
 
-\- Weak email filtering  
+\- Weak email filtering
 
-\- Misconfigured detection rules  
+\- Misconfigured detection rules
 
 
 
@@ -188,6 +188,22 @@ Used \*\*5 Whys Method\*\*:
 
 
 
+| Time  | Event                 |
+
+| ----- | --------------------- |
+
+| 16:00 | Exploit launched      |
+
+| 16:02 | Wazuh alert triggered |
+
+| 16:05 | TheHive case created  |
+
+| 16:10 | IP blocked            |
+
+
+
+
+
 \---
 
 
@@ -196,17 +212,17 @@ Used \*\*5 Whys Method\*\*:
 
 
 
-1\. Detection via SIEM  
+1\. Detection via SIEM
 
-2\. Alert triage  
+2\. Alert triage
 
-3\. Threat validation  
+3\. Threat validation
 
-4\. Containment (IP blocking, system isolation)  
+4\. Containment (IP blocking, system isolation)
 
-5\. Automation via SOAR  
+5\. Automation via SOAR
 
-6\. Post-incident analysis  
+6\. Post-incident analysis
 
 
 
@@ -218,21 +234,19 @@ Used \*\*5 Whys Method\*\*:
 
 
 
-\- SOC Operations  
+\- SOC Operations
 
-\- Threat Hunting  
+\- Threat Hunting
 
-\- Incident Response  
+\- Incident Response
 
-\- SIEM \& SOAR  
+\- SIEM \& SOAR
 
-\- Cyber Threat Intelligence  
+\- Cyber Threat Intelligence
 
-\- Security Automation  
+\- Security Automation
 
 
 
 \---
-
-
 
